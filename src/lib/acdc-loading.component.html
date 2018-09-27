@@ -1,0 +1,8 @@
+
+<div class="acdc-loading-div" *ngIf="configDS && configDS.loadingCnt>0">
+    <div class="acdc-indeterminate"></div>
+</div>
+
+<div *ngIf="configDS && configDS.loadingCnt>0 && configDS.overlay"
+	class="acdc-loading-overlay-div">
+</div>
