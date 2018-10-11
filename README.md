@@ -4,6 +4,10 @@
 No additional dependecies like bootsrap or material or any other ui libs required
 
 
+## Latest updates
+
+*11 October 2018* Additional attributes support (component colors and overlay opacity)
+
 ## Install
 
 ### 1. Import loading module in your project's root module app.module.ts:
@@ -29,11 +33,11 @@ imports: [
 
 ```
 Available attributes:
-overlay - enable/disable overlay div for blocking screen while loading ( values - true / false )
-overlayOpacity - overlay div opacity ( values - decimal number with range 0.0 .. 1.0 )
-overlayColor - overlay div color ( values - one of these: Color Name / Hex Color Code / RGB Color Code )
-color1 - loader animation first color ( values - one of these: Color Name / Hex Color Code / RGB Color Code )
-color2 - loader animation second color ( values - one of these: Color Name / Hex Color Code / RGB Color Code )
+**overlay** - enable/disable overlay div for blocking screen while loading ( values - true / false ) <br />
+**overlayOpacity** - overlay div opacity ( values - decimal number with range 0.0 .. 1.0 ) <br />
+**overlayColor** - overlay div color ( values - one of these: Color Name / Hex Color Code / RGB Color Code ) <br />
+**color1** - loader animation first color ( values - one of these: Color Name / Hex Color Code / RGB Color Code ) <br />
+**color2** - loader animation second color ( values - one of these: Color Name / Hex Color Code / RGB Color Code ) <br />
 
 ### 2. Import and use loading service in any component or service where you need to control visibility of loading:
 ```
