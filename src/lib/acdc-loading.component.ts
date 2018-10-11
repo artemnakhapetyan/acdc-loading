@@ -15,6 +15,18 @@ export class AcdcLoadingComponent implements OnInit {
   public configDS: LoadingConfig;
 
   @Input()
+  public color1: string;
+
+  @Input()
+  public color2: string;
+
+  @Input()
+  public overlayOpacity: number = 0;
+
+  @Input()
+  public overlayColor: string;
+
+  @Input()
   overlay: boolean;
 
   constructor(private acdcLoadingService: AcdcLoadingService) { }
