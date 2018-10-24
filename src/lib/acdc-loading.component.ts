@@ -15,10 +15,10 @@ export class AcdcLoadingComponent implements OnInit {
   public configDS: LoadingConfig;
 
   @Input()
-  public color1: string;
+  public spinnerColor1: string;
 
   @Input()
-  public color2: string;
+  public spinnerColor2: string;
 
   @Input()
   public overlayOpacity: number = 0;

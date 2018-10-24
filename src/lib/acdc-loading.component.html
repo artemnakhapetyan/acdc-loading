@@ -1,6 +1,6 @@
 
-<div class="acdc-loading-div" [style.backgroundColor]="color1" *ngIf="configDS && configDS.loadingCnt>0">
-    <div class="acdc-indeterminate" [style.backgroundColor]="color2"></div>
+<div class="acdc-loading-div" [style.backgroundColor]="spinnerColor1" *ngIf="configDS && configDS.loadingCnt>0">
+    <div class="acdc-indeterminate" [style.backgroundColor]="spinnerColor2"></div>
 </div>
 
 <div *ngIf="configDS && configDS.loadingCnt>0 && configDS.overlay"
