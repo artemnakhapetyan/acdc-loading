@@ -3,17 +3,15 @@
 
 No additional dependecies like bootsrap or material or any other ui libs required
 
-```
-
 See [Demo](https://angular-zbhxgx-acdc-loading.stackblitz.io)
 
-```
 
 ## Latest updates
 
 *11 October 2018* Additional attributes support (component colors and overlay opacity) 
 <br/>
 *24 October 2018* Styles fix (fixed position for loading bar to be visible when page is scrolled down. overlay style fix for pages with scroll)
+
 
 ## Install
 
