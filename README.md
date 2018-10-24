@@ -16,7 +16,7 @@ See [Demo](https://angular-zbhxgx-acdc-loading.stackblitz.io)
 ## Install
 
 ### 1. Install package with npm
-```
+```npm
 
 npm install acdc-loading --save
 
@@ -37,7 +37,7 @@ imports: [
 ## Usage
 
 ### 1. Place loading tag in root component html markup app.component.html:
-```js
+```html
 
 <acdc-loading overlay="true" overlayOpacity="0.1" overlayColor="black" spinnerColor1="red" spinnerColor2="green"></acdc-loading>
 
