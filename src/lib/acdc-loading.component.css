@@ -1,6 +1,6 @@
 /* Laoding styles */
 .acdc-loading-overlay-div{
-  position: absolute; 
+  position: fixed; 
   top: 0px; 
   left: 0px; 
   width: 100%; 
@@ -11,7 +11,9 @@
 }
 
 .acdc-loading-div {
-  position: absolute;
+  position: fixed;
+  top: 0px;
+  left: 0px;
   z-index: 1000000001;
   height: 4px;
   display: block;
