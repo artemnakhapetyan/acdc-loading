@@ -37,7 +37,7 @@ imports: [
 ## Usage
 
 ### 1. Place loading tag in root component html markup app.component.html:
-```ts
+```js
 
 <acdc-loading overlay="true" overlayOpacity="0.1" overlayColor="black" spinnerColor1="red" spinnerColor2="green"></acdc-loading>
 
