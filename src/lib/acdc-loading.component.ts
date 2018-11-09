@@ -18,6 +18,9 @@ export class AcdcLoadingComponent implements OnInit {
   public spinnerColor1: string;
 
   @Input()
+  public zIndex: number = 1000000000;
+
+  @Input()
   public spinnerColor2: string;
 
   @Input()
