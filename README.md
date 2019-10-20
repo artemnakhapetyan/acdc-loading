@@ -5,7 +5,7 @@ No additional dependecies like bootsrap or material or any other ui libs require
 
 Angular versions support - 2,4,5,6,7+
 
-See [Demo](https://angular-zbhxgx-acdc-loading.stackblitz.io)
+See [Demo](https://stackblitz.com/edit/angular-zbhxgx-acdc-loading)
 
 
 ## Latest updates
