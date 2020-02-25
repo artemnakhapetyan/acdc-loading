@@ -10,6 +10,10 @@ See [Demo](https://stackblitz.com/edit/angular-zbhxgx-acdc-loading)
 
 ## Latest updates
 
+*25 February 2020* Body template for replacing default spinner style
+<br/>
+*20 October 2019* Update demo link
+<br/>
 *11 October 2018* Additional attributes support (component colors and overlay opacity) 
 <br/>
 *24 October 2018* Styles fix (fixed position for loading bar to be visible when page is scrolled down. overlay style fix for pages with scroll)
@@ -53,6 +57,7 @@ imports: [
 
 ```
 Available attributes: <br />
+**useBody** - use body content as spinner instead default one<br />
 **zIndex** - overlay and spinner z-index<br />
 **overlay** - enable/disable overlay div for blocking screen while loading ( values - true / false ) <br />
 **overlayOpacity** - overlay div opacity ( values - decimal number with range 0.0 .. 1.0 ) <br />

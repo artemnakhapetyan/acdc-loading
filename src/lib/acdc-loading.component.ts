@@ -30,6 +30,9 @@ export class AcdcLoadingComponent implements OnInit {
   public overlayColor: string;
 
   @Input()
+  public useBody: boolean = false;
+
+  @Input()
   overlay: boolean;
 
   constructor(private acdcLoadingService: AcdcLoadingService) { }
@@ -37,6 +40,7 @@ export class AcdcLoadingComponent implements OnInit {
   ngOnInit() {
     this.configDS = this.acdcLoadingService.getConfigDS();
     this.configDS.overlay = this.overlay;
+    this.configDS.useBody = this.useBody;
   }
 
 }

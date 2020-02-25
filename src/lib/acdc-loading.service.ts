@@ -7,7 +7,8 @@ export class AcdcLoadingService {
 
   private configDS: LoadingConfig = {
     loadingCnt: 0,
-    overlay: false
+    overlay: false,
+    useBody: false
   };
 
   constructor() { }
