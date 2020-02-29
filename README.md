@@ -43,7 +43,7 @@ imports: [
 
 ## Usage
 
-### 1. Place loading tag in root component html markup app.component.html:
+### 1 Place loading tag in root component html markup app.component.html:
 ```html
 
 <acdc-loading 
@@ -56,6 +56,31 @@ imports: [
 </acdc-loading>
 
 ```
+
+### 2. Alternative to step 1: Place loading tag in root component html markup app.component.html and provide body with custom loader style:
+```html
+
+<acdc-loading 
+    zIndex="1000000000"
+    overlay="true" 
+    overlayOpacity="0" 
+    overlayColor="black" 
+    spinnerColor1="#ccc" 
+    spinnerColor2="white"
+    useBody="true">
+    <ng-container>
+        <div class="busy-holder" style="z-index: 1000000000;">
+            <div class="busy">
+                <svg class="loader3 loader-md" viewBox="0 0 66 66">
+                    <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                </svg>
+            </div>
+        </div>
+    </ng-container>
+</acdc-loading>
+
+```
+
 Available attributes: <br />
 **useBody** - use body content as spinner instead default one<br />
 **zIndex** - overlay and spinner z-index<br />
@@ -65,7 +90,7 @@ Available attributes: <br />
 **spinnerColor1** - spinner animation first color ( values - one of these: Color Name / Hex Color Code / RGB Color Code ) <br />
 **spinnerColor2** - spinner animation second color ( values - one of these: Color Name / Hex Color Code / RGB Color Code ) <br />
 
-### 2. Import and use loading service in any component or service where you need to control visibility of loading:
+### 3. Import and use loading service in any component or service where you need to control visibility of loading:
 ```ts
 
 import { AcdcLoadingService } from 'acdc-loading';
