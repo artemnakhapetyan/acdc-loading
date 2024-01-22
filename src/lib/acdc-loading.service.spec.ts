@@ -1,15 +1,16 @@
-import { TestBed, inject } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 
 import { AcdcLoadingService } from './acdc-loading.service';
 
 describe('AcdcLoadingService', () => {
+  let service: AcdcLoadingService;
+
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [AcdcLoadingService]
-    });
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(AcdcLoadingService);
   });
 
-  it('should be created', inject([AcdcLoadingService], (service: AcdcLoadingService) => {
+  it('should be created', () => {
     expect(service).toBeTruthy();
-  }));
+  });
 });

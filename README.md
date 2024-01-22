@@ -1,15 +1,20 @@
-
 # Material design Loading component for angular
 
 No additional dependecies like bootsrap or material or any other ui libs required
 
-Angular versions support - 2,4,5,6,7+
+Angular versions support - 2,4,5,6,7+, 16+
+
+Versions dependencies:
+Angular 2,4,5,6,7+ <=> 1.x version of library
+Angular 16+ <=> 16.x version of library
 
 See [Demo](https://stackblitz.com/edit/angular-zbhxgx-acdc-loading)
 
 
 ## Latest updates
 
+*22 January 2024* new Angular and Ts versions support
+<br/>
 *25 February 2020* Body template for replacing default spinner style
 <br/>
 *20 October 2019* Update demo link

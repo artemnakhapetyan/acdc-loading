@@ -20,7 +20,7 @@ import { AcdcLoadingService } from './acdc-loading.service';
 })
 export class AcdcLoadingModule { 
 
-	static forRoot(): ModuleWithProviders {
+	static forRoot(): ModuleWithProviders<AcdcLoadingModule> {
 	    return {
 	      ngModule: AcdcLoadingModule,
 	      providers: [AcdcLoadingService]
