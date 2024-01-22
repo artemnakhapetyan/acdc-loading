@@ -1,9 +1,8 @@
 {
   "name": "acdc-loading",
-  "version": "1.2.3",
+  "version": "16.0.0",
   "license": "MIT",
   "keywords": [
-    "angular2",
     "angular 2",
     "angular4",
     "angular 4",
@@ -13,6 +12,7 @@
     "angular 6",
     "angular7",
     "angular 7",
+    "angular16+",
     "loading",
     "progress bar",
     "typescript"
@@ -22,7 +22,11 @@
     "url": "https://github.com/artemnakhapetyan/acdc-loading.git"
   },
   "peerDependencies": {
-    "@angular/common": ">=2.0.0",
-    "@angular/core": ">=2.0.0"
-  }
+    "@angular/common": ">=16.0.0",
+    "@angular/core": ">=16.0.0"
+  },
+  "dependencies": {
+    "tslib": ">=2.3.0"
+  },
+  "sideEffects": false
 }

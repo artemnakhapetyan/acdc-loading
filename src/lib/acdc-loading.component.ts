@@ -12,28 +12,32 @@ import { AcdcLoadingService } from './acdc-loading.service';
 })
 export class AcdcLoadingComponent implements OnInit {
 
-  public configDS: LoadingConfig;
+  public configDS: LoadingConfig = {
+    loadingCnt: 0,
+    overlay: false,
+    useBody: false
+  };
 
   @Input()
-  public spinnerColor1: string;
+  public spinnerColor1: string = '';
 
   @Input()
   public zIndex: string = '1000000000';
 
   @Input()
-  public spinnerColor2: string;
+  public spinnerColor2: string = '';
 
   @Input()
   public overlayOpacity: number = 0;
 
   @Input()
-  public overlayColor: string;
+  public overlayColor: string = '';
 
   @Input()
   public useBody: boolean = false;
 
   @Input()
-  overlay: boolean;
+  overlay: boolean = false;
 
   constructor(private acdcLoadingService: AcdcLoadingService) { }
 
